@@ -34,7 +34,7 @@ header {
 .weather-now {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     height: 30%;
 }
@@ -48,10 +48,13 @@ header {
 }
 .weather-prediction_slide {
     display: inline-flex;
-    animation: sliding 5s linear infinite;
+    animation: sliding 30s linear infinite;
     white-space: nowrap;
     background-color: blueviolet;
 }
 .weather-prediction-day {
     text-align: center;
+}
+.weather-now__weather-block_hidden {
+    visibility:hidden;
 }
